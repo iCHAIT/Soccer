@@ -45,10 +45,8 @@ seniors = {s: organ[s] for s in organ if len(organ[s]) > 2}
 
 orgs_sorted = sorted(seniors.items(), key=lambda x: len(x[1]), reverse=True)
 
-for s in orgs_sorted:
+for s in orgs_sorted:  # Can be handled in a better way I guess.
     break
-
-# GIves wrong result for 2014. :/
 
 print ''
 print 'YEAR:', yr   # Year
