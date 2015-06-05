@@ -31,12 +31,22 @@ Check it out, there is a guy who's getting selected for 6 times consecutively fr
 This script takes the handle of the student as an arguement and returns the number of times he has been selected for GSoC and the corresponding years as well.
 
 
+#### year-stat.py
+
+This script gives year wise statistics including the number of orgs that got selected, number of projects that were accepted and the organization that bagged maximum number of slots.
+
+
 Known Issues
 ============
 
 #### org-count.py
 
 I have not tested the script rigorously, moreover such a variety in the name of the organization may lead to inconsistent result.
+
+
+#### year-stat.py
+
+For the year 2014 the results produced are not correct, to be precise the no. of accepted projects is incorrect.
 
 TODO
 ====
