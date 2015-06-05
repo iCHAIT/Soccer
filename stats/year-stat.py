@@ -1,10 +1,19 @@
 """
 Provide the year wise stats.
 """
-
+import sys
 import json
 
-yr = raw_input("Enter the year( 2009-2014 ):")
+# yr = raw_input("Enter the year( 2009-2014 ):")
+try:
+    if sys.argv[1]:
+        yr = sys.argv[1]
+    else:
+        raise
+except:
+    print("Give a year[2009-2014] as arguement.")
+    quit()
+
 count = 0
 projc = 0
 
